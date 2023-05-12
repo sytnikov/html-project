@@ -12,7 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<br>
     <!-- Header section starts here -->
     <a href="#">Home</a>
     <a href="/about.html">About</a>
@@ -59,7 +59,25 @@
     <!-- Work experience section ends here -->
 
     <!-- Skills section starts here -->
-    <h2>Skills</h2>
+    <h2><em>Skills</em></h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Technologies</th>
+                <th>Skill level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C, C++</td>
+                <td>★☆☆☆☆</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>★★★☆☆</td>
+            </tr>
+        </tbody>
+    </table>
     <!-- Skills section ends here -->
 
     <!-- Education section starts here -->
@@ -80,6 +98,33 @@
 
     <!-- Contacts section starts here -->
     <h2>Contacts</h2>
+    <form action="https://formspree.io/f/xqkojpjw" method="post">
+        <div>
+            <label for="fullname">Full name: </label>
+            <input type="text" id="fullname" name="fullname" required/>
+        </div>
+        <br />
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required/>
+        </div>
+        <br/>
+        <div>
+            <span>Gender: </span>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br />
+        <div>
+            <label for="message">Message:</label> <br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <br/><br/> 
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d687.1542419011524!2d24.936878432334307!3d60.174040567564276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcab6fcbbeb%3A0x6edaf369263e75dd!2sHelsinki%20Central%20Library%20Oodi!5e0!3m2!1sen!2sfi!4v1683895013297!5m2!1sen!2sfi"
         width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
